@@ -8,8 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  demands:
-  - npma
+
 
 variables:
   buildConfiguration: 'Release'
